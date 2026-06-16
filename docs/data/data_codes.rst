@@ -10,15 +10,15 @@ Filter wheel Data Product Codes
 
 | Filter Wheel 1 (ND)
 | 3 = ND = Neutral density, 6 = 1E-6 
-| 1 = Ca = 393.65 +/- 0.2 
-| 5 = BB = 412.5 +/- 27.5 nm 
-| 4 = T3 = 430.0 +/- 5 nm 
+| 1 = Ca = 393.65 +/- 0.2 - Ca II filter, possible used as F-corona discriminant
+| 5 = BB = 412.5 +/- 27.5 nm - broadband filter for fast density observations
+| 4 = T3 = 430.0 +/- 5 nm - used for temperature diagnostic
 | 2 = CL = Clear 
 | 
 
 | Filter Wheel 2 (BP)
-| 3 = T1 = 393.5 +/- 5 nm
-| 4 = T2 = 405.0 +/- 5 nm
-| 2 = S1 = 398.7 +/- 5 nm
-| 1 = S2 = 423.3 +/- 5 nm
+| 3 = T1 = 393.5 +/- 5 nm - used for temperature diagnostic
+| 4 = T2 = 405.0 +/- 5 nm - used for temperature diagnostic
+| 2 = S1 = 398.7 +/- 5 nm - used for speed diagnostic
+| 1 = S2 = 423.3 +/- 5 nm - used for speed diagnostic
 | 5 = CL = Clear
