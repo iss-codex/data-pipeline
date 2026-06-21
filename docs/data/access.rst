@@ -18,11 +18,11 @@ For the latter case, files may be retrieved in one of two ways:
 
 .. code-block:: bash
 
-    wget -r -l1 --no-parent --no-directories -A "codex_level__cl_t1_20251221.fits" -R "*.html*,index*,*tmp*" https://umbra.nascom.nasa.gov/codex/2025/12/21/
+wget -r -l1 --no-parent --no-directories -A "codex_level__cl_t1_20251221.fits" -R "*.html*,index*,*tmp*" https://umbra.nascom.nasa.gov/codex/2025/12/21/
 
 In this example, the user would retrieve all  data products from 2025-12-21. To retrieve data from a different date, simply modify the path.
 
-2. By using a data scraping tool. A `Jupyter notebook <https://github.com/nhgodbole/data-pipeline/blob/main/Notebooks/codex_data_scraper.ipynb>`_ was developed for this purpose, and is particularly useful for retrieving several data products at once. 
+2. By using a data scraping tool. A `Jupyter notebook <https://github.com/nhgodbole/data-pipeline/blob/main/Notebooks/codex_data_scraper.ipynb>`_ was developed for this purpose.
 
 The script queries the database based on user input. By specifying a range of dates, the user can download either Level 1 science data files (if the keyword "calibration" is None) or Level 1 calibration data files (if the keyword "calibration" is not None). Therein, specific calibration types may be specified. 
 
