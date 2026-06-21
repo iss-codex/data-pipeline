@@ -36,14 +36,14 @@ These data are compatible with standard astropy FITS libraries, and can be read 
 
 .. code-block:: python
 
-from astropy.io import fits
+    from astropy.io import fits
 
-filename = 'codex_l1_20250521_000001_5_4.fits'
+    filename = 'codex_l1_20250521_000001_5_4.fits'
 
-with fits.open(filename) as hdul:
-    data = hdul[1].data
-    header = hdul[1].header
-    uncertainty = hdul[2].data
+    with fits.open(filename) as hdul:
+        data = hdul[1].data
+        header = hdul[1].header
+        uncertainty = hdul[2].data
 
 Data Projections
 ----------------
