@@ -22,7 +22,7 @@ For the latter case, files may be retrieved in one of two ways:
 
 In this example, the user would retrieve all  data products from 2025-12-21. To retrieve data from a different date, simply modify the path.
 
-2. By using a data scraping tool. A `Jupyter notebook <https://github.com/nhgodbole/data-pipeline/blob/main/Notebooks/codex_data_scraper.ipynb>` was developed for this purpose, and is particularly useful for retrieving several data products at once. 
+2. By using a data scraping tool. A `Jupyter notebook <https://github.com/nhgodbole/data-pipeline/blob/main/Notebooks/codex_data_scraper.ipynb/>` was developed for this purpose, and is particularly useful for retrieving several data products at once. 
 
 The script queries the database based on user input. By specifying a range of dates, the user can download either Level 1 science data files (if the keyword "calibration" is None) or Level 1 calibration data files (if the keyword "calibration" is not None). Therein, specific calibration types may be specified. 
 
