@@ -1,5 +1,5 @@
 SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,NULLABLE,MUTABLE,DEFAULT
-0,keyword,XTENSION,FITS Required,,str,TRUE,TRUE,FITS Required
+0,keyword,XTENSION,Image extension,,str,TRUE,TRUE,IMAGE
 0,keyword,BITPIX,16,Number of bits per pixel,int,TRUE,TRUE,16
 0,keyword,NAXIS,2,Number of axes,int,TRUE,TRUE,2
 0,keyword,NAXIS1,2408,Length of the first axis,int,TRUE,TRUE,2048
