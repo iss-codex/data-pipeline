@@ -1,39 +1,39 @@
-SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE
-0,keyword,XTENSION,IMAGE,image extension,str
-0,keyword,BITPIX,16,array data type,int
-0,keyword,NAXIS,2,number of array dimensions,int
-0,keyword,NAXIS1,2408,length of the first axis,int
-0,keyword,NAXIS2,1500,length of the second axis,int
-0,keyword,PCOUNT,0,number of parameters,int
-0,keyword,GCOUNT,1,number of groups,int
-0,keyword,EXTNAME,POL_1,extension name,str
-0,keyword,POL_ANGLE,90,[deg] angle of orientation pxl polarizer,str
-0,keyword,POL_REF,codex,frame of reference for pol_angle,str
-0,keyword,BUNIT,DN,"Unit of physical value, after BZERO,BSCALE applied",str
-0,keyword,DATAMIN,1,minimum valid physical value,float
-0,keyword,DATAMAX,4095,maximum valid physical value,float
-0,keyword,CHECKSUM,,HDU checksum updated [YYYY-MM-DDTHH:MM:SS],str
-0,keyword,DATASUM,,data unit checksum updated [YYYY-MM-DDTHH:MM:SS],str
-0,keyword,WCSNAME,Helioprojective-Cartesian,Name of coordinate system,str
-0,keyword,CTYPE1,HPLN-TAN,Helioprojective longitude (solar X),str
-0,keyword,CTYPE2,HPLT-TAN,Helioprojective longitude (solar Y),str
-0,keyword,CUNIT1,arcsec,Unit along axis 1,str
-0,keyword,CUNIT2,arcsec,Unit along axis 2,str
-0,keyword,PC1_1,,WCS coordinate transformation matrix ,str
-0,keyword,PC1_2,,WCS coordinate transformation matrix ,str
-0,keyword,PC2_1,,WCS coordinate transformation matrix ,str
-0,keyword,PC2_2,,WCS coordinate transformation matrix ,str
-0,keyword,CDELT1,,[arcsec] pixel scale along axis 1,str
-0,keyword,CDELT2,,[arcsec] pixel scale along axis 2,str
-0,keyword,CROTA,,[deg] rotation angle,str
-0,keyword,CRVAL1,,[arcsec] Value of reference pixel along axis 1,str
-0,keyword,CRVAL2,,[arcsec] Value of reference pixel along axis 2,str
-0,keyword,CRPIX1,,Reference pixel location along axis 1,str
-0,keyword,CRPIX2,,Reference pixel location along axis 2,str
-0,keyword,SUN_XCEN,,[pixel] sun center location along axis 1,str
-0,keyword,SUN_YCEN,,[pixel] sun center location along axis 2,str
-0,keyword,RSUN_REF,,[m] assumed physical solar radius,str
-0,keyword,RSUN_ARC,,[arcsec] assumed physical solar radius,str
-0,keyword,HGLN_OBS,,Stonyhurst heliographic longitude of the observer,str
-0,keyword,HGLT_OBS,,Stonyhurst heliographic latitude of the observer,str
-0,keyword,DSUN_OBS,,Distance between the sun and the observer in meters,str
+SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,
+0,keyword,XTENSION,IMAGE,image extension,str,
+0,keyword,BITPIX,16,array data type,int,
+0,keyword,NAXIS,2,number of array dimensions,int,
+0,keyword,NAXIS1,2408,length of the first axis,int,
+0,keyword,NAXIS2,1500,length of the second axis,int,
+0,keyword,PCOUNT,0,number of parameters,int,
+0,keyword,GCOUNT,1,number of groups,int,
+0,keyword,EXTNAME,POL_1,extension name,str,
+0,keyword,POL_ANGLE,90,[deg] angle of orientation pxl polarizer,str,
+0,keyword,POL_REF,codex,frame of reference for pol_angle,str,
+0,keyword,BUNIT,DN,"Unit of physical value, after BZERO,BSCALE applied",str,
+0,keyword,DATAMIN,1,minimum valid physical value,float,
+0,keyword,DATAMAX,4095,maximum valid physical value,float,
+0,keyword,CHECKSUM,,HDU checksum updated [YYYY-MM-DDTHH:MM:SS],str,
+0,keyword,DATASUM,,data unit checksum updated [YYYY-MM-DDTHH:MM:SS],str,
+0,keyword,WCSNAME,Helioprojective-Cartesian,Name of coordinate system,str,
+0,keyword,CTYPE1,HPLN-TAN,Helioprojective longitude (solar X),str,
+0,keyword,CTYPE2,HPLT-TAN,Helioprojective longitude (solar Y),str,
+0,keyword,CUNIT1,arcsec,Unit along axis 1,str,
+0,keyword,CUNIT2,arcsec,Unit along axis 2,str,
+0,keyword,PC1_1,,WCS coordinate transformation matrix ,str,
+0,keyword,PC1_2,,WCS coordinate transformation matrix ,str,
+0,keyword,PC2_1,,WCS coordinate transformation matrix ,str,
+0,keyword,PC2_2,,WCS coordinate transformation matrix ,str,
+0,keyword,CDELT1,,[arcsec] pixel scale along axis 1,str,
+0,keyword,CDELT2,,[arcsec] pixel scale along axis 2,str,
+0,keyword,CROTA,,[deg] rotation angle,str,
+0,keyword,CRVAL1,,[arcsec] Value of reference pixel along axis 1,str,
+0,keyword,CRVAL2,,[arcsec] Value of reference pixel along axis 2,str,
+0,keyword,CRPIX1,,Reference pixel location along axis 1,str,
+0,keyword,CRPIX2,,Reference pixel location along axis 2,str,
+0,keyword,SUN_XCEN,,[pixel] sun center location along axis 1,str,
+0,keyword,SUN_YCEN,,[pixel] sun center location along axis 2,str,
+0,keyword,RSUN_REF,,[m] assumed physical solar radius,str,
+0,keyword,RSUN_ARC,,[arcsec] assumed physical solar radius,str,
+0,keyword,HGLN_OBS,,Stonyhurst heliographic longitude of the observer,str,
+0,keyword,HGLT_OBS,,Stonyhurst heliographic latitude of the observer,str,
+0,keyword,DSUN_OBS,,Distance between the sun and the observer in meters,str,
