@@ -1,5 +1,5 @@
 SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,NULLABLE,MUTABLE,DEFAULT
-0,section,COMMENT,FITS Required,,str,TRUE,TRUE,FITS Required
+0,keyword,XTENSION,FITS Required,,str,TRUE,TRUE,FITS Required
 0,keyword,SIMPLE,T,Conforms to FITS Standard,str,TRUE,TRUE,T
 0,keyword,BITPIX,16,Number of bits per pixel,int,TRUE,TRUE,16
 0,keyword,NAXIS,3,Number of axes,int,TRUE,TRUE,3
