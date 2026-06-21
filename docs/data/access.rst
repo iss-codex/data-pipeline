@@ -3,13 +3,15 @@ Accessing CODEX Data
 
 Recommended Level 1 Products
 -----------------------------
-For most science use cases, the recommended starting point is the Level 2 science data products...
+For most science use cases, the recommended starting point is the Level 2 science data products.
 
 
 Downloading Data
 ----------------
-Data output from the CODEX data processing pipeline are stored and accessible through the Solar Data Analysis Center (SDAC)
-- a portal for hosting through tools such as the Virtual Solar Observatory (VSO).
+Data output from the CODEX data processing pipeline are stored and accessible through the `Solar Data Analysis Center (SDAC) <https://umbra.nascom.nasa.gov/codex/>`, a portal for hosting through tools such as the Virtual Solar Observatory (VSO).
+
+
+
 From here CODEX data products can be queried and requested for download using metadata within the data products.
 
 If that example is not working properly, you can also pull data directly from the SDAC using ``wget``.
