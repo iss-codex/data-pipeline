@@ -1,4 +1,4 @@
-SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,
+SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE
 0,keyword,XTENSION,IMAGE,image extension,str
 0,keyword,BITPIX,16,array data type,int
 0,keyword,NAXIS,2,number of array dimensions,int
