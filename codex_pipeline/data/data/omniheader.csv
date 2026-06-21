@@ -9,7 +9,7 @@ SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,DEFAULT
 0,keyword,EXTNAME,POL_1,extension name,str,POL_1
 0,keyword,POL_ANGLE,,[deg] angle of orientation pxl polarizer,str,90
 0,keyword,POL_REF,,frame of reference for pol_angle,str,codex
-0,keyword,BUNIT,,Unit of physical value\, after BZERO\,BSCALE applied,str,DN
+0,keyword,BUNIT,,"Unit of physical value, after BZERO,BSCALE applied",str,DN
 0,keyword,DATAMIN,,minimum valid physical value,float,1
 0,keyword,DATAMAX,,maximum valid physical value,float,4095
 0,keyword,CHECKSUM,,HDU checksum updated [YYYY-MM-DDTHH:MM:SS],str,
