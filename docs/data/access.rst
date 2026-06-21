@@ -10,7 +10,7 @@ For most science use cases, the recommended starting point is the Level 2 scienc
 
 Downloading Data
 ----------------
-Data output from the CODEX data processing pipelines are stored and accessible through the `Solar Data Analysis Center (SDAC) <https://umbra.nascom.nasa.gov/codex>_`. CODEX data products can be downloaded either manually from SDAC, or queried and retrieved using the metadata within individual data products. 
+Data output from the CODEX data processing pipelines are stored and accessible through the `Solar Data Analysis Center (SDAC) <https://umbra.nascom.nasa.gov/codex>`_. CODEX data products can be downloaded either manually from SDAC, or queried and retrieved using the metadata within individual data products. 
 
 For the latter case, files may be retrieved in one of two ways: 
 
