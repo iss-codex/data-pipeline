@@ -1,39 +1,39 @@
 SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,DEFAULT
 0,keyword,XTENSION,Image extension,,str,IMAGE
-0,keyword,BITPIX,16,Number of bits per pixel,int,16,
-0,keyword,NAXIS,2,Number of axes,int,2,
-0,keyword,NAXIS1,2408,Length of the first axis,int,2048,
-0,keyword,NAXIS2,2048,Length of the second axis,int,1500,
-0,keyword,PCOUNT,,Number of parameters,int,0,
-0,keyword,GCOUNT,,Number of groups,int,1,
-0,keyword,EXTNAME,PRIMARY DATA ARRAY,Name of this binary table extension,str,POL_1,
-0,keyword,POL_ANGLE,,,str,90,
-0,keyword,POL_REF,,,str,codex,
-0,keyword,BUNIT,,Units of observation,str,DN,
-0,keyword,DATAMIN,,minimum valid physical value,float,1,
-0,keyword,DATAMAX,,maximum valid physical value,float,4095,
-0,keyword,CHECKSUM,,,str,,
-0,keyword,DATASUM,,,str,,,
-0,keyword,WCSNAME,,,str,Helioprojective-Cartesian,
-0,keyword,CTYPE1,,,str,HPLN-TAN,
-0,keyword,CTYPE2,,,str,HPLT-TAN,
-0,keyword,CUNIT1,,,str,arcsec,
-0,keyword,CUNIT2,,,str,arcsec,
-0,keyword,PC1_1,,,str,,
-0,keyword,PC1_2,,,str,,0
+0,keyword,BITPIX,16,Number of bits per pixel,int,16
+0,keyword,NAXIS,2,Number of axes,int,2
+0,keyword,NAXIS1,2408,Length of the first axis,int,2048
+0,keyword,NAXIS2,2048,Length of the second axis,int,1500
+0,keyword,PCOUNT,,Number of parameters,int,0
+0,keyword,GCOUNT,,Number of groups,int,1
+0,keyword,EXTNAME,PRIMARY DATA ARRAY,Name of this binary table extension,str,POL_1
+0,keyword,POL_ANGLE,,,str,90
+0,keyword,POL_REF,,,str,codex
+0,keyword,BUNIT,,Units of observation,str,DN
+0,keyword,DATAMIN,,minimum valid physical value,float,1
+0,keyword,DATAMAX,,maximum valid physical value,float,4095
+0,keyword,CHECKSUM,,,str,
+0,keyword,DATASUM,,,str,
+0,keyword,WCSNAME,,,str,Helioprojective-Cartesian
+0,keyword,CTYPE1,,,str,HPLN-TAN
+0,keyword,CTYPE2,,,str,HPLT-TAN
+0,keyword,CUNIT1,,,str,arcsec
+0,keyword,CUNIT2,,,str,arcsec
+0,keyword,PC1_1,,,str,
+0,keyword,PC1_2,,,str,,
 0,keyword,PC2_1,,,str,,
-0,keyword,PC2_2,,,str,,0
+0,keyword,PC2_2,,,str,,
 0,keyword,CDELT1,,,str,,
-0,keyword,CDELT2,,,str,,0
+0,keyword,CDELT2,,,str,,
 0,keyword,CROTA,,,str,,
-0,keyword,CRVAL1,,,str,,0
-0,keyword,CRVAL2,,,str,,0
-0,keyword,CRPIX1,,,str,,0
-0,keyword,CRPIX2,,,str,,0
-0,keyword,SUN_XCEN,,,str,,0
-0,keyword,SUN_YCEN,,,str,,0
-0,keyword,RSUN_REF,,,str,,0
-0,keyword,RSUN_ARC,,,str,,0
-0,keyword,HGLN_OBS,,,str,,0
-0,keyword,HGLT_OBS,,,str,,0
-0,keyword,DSUN_OBS,,,str,,0
+0,keyword,CRVAL1,,,str,,
+0,keyword,CRVAL2,,,str,,
+0,keyword,CRPIX1,,,str,,
+0,keyword,CRPIX2,,,str,,
+0,keyword,SUN_XCEN,,,str,,
+0,keyword,SUN_YCEN,,,str,,
+0,keyword,RSUN_REF,,,str,,
+0,keyword,RSUN_ARC,,,str,,
+0,keyword,HGLN_OBS,,,str,,
+0,keyword,HGLT_OBS,,,str,,
+0,keyword,DSUN_OBS,,,str,,
