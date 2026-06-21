@@ -1,39 +1,39 @@
 SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,DEFAULT
-0,keyword,XTENSION,Image extension,,str,IMAGE
-0,keyword,BITPIX,16,Number of bits per pixel,int,16
-0,keyword,NAXIS,2,Number of axes,int,2
-0,keyword,NAXIS1,2408,Length of the first axis,int,2048
-0,keyword,NAXIS2,2048,Length of the second axis,int,1500
-0,keyword,PCOUNT,,Number of parameters,int,0
-0,keyword,GCOUNT,,Number of groups,int,1
-0,keyword,EXTNAME,PRIMARY DATA ARRAY,Name of this binary table extension,str,POL_1
-0,keyword,POL_ANGLE,,,str,90
-0,keyword,POL_REF,,,str,codex
-0,keyword,BUNIT,,Units of observation,str,DN
+0,keyword,XTENSION,IMAGE,image extension,str,IMAGE
+0,keyword,BITPIX,16,array data type,int,16
+0,keyword,NAXIS,2,number of array dimensions,int,2
+0,keyword,NAXIS1,2408,length of the first axis,int,2048
+0,keyword,NAXIS2,2048,length of the second axis,int,1500
+0,keyword,PCOUNT,,number of parameters,int,0
+0,keyword,GCOUNT,,number of groups,int,1
+0,keyword,EXTNAME,POL_1,extension name,str,POL_1
+0,keyword,POL_ANGLE,,[deg] angle of orientation pxl polarizer,str,90
+0,keyword,POL_REF,,frame of reference for pol_angle,str,codex
+0,keyword,BUNIT,,Unit of physical value, after BZERO,BSCALE applied,str,DN
 0,keyword,DATAMIN,,minimum valid physical value,float,1
 0,keyword,DATAMAX,,maximum valid physical value,float,4095
-0,keyword,CHECKSUM,,,str,
-0,keyword,DATASUM,,,str,
-0,keyword,WCSNAME,,,str,Helioprojective-Cartesian
-0,keyword,CTYPE1,,,str,HPLN-TAN
-0,keyword,CTYPE2,,,str,HPLT-TAN
-0,keyword,CUNIT1,,,str,arcsec
-0,keyword,CUNIT2,,,str,arcsec
-0,keyword,PC1_1,,,str,
-0,keyword,PC1_2,,,str,
-0,keyword,PC2_1,,,str,
-0,keyword,PC2_2,,,str,
-0,keyword,CDELT1,,,str,
-0,keyword,CDELT2,,,str,
-0,keyword,CROTA,,,str,
-0,keyword,CRVAL1,,,str,
-0,keyword,CRVAL2,,,str,
-0,keyword,CRPIX1,,,str,
-0,keyword,CRPIX2,,,str,
-0,keyword,SUN_XCEN,,,str,
-0,keyword,SUN_YCEN,,,str,
-0,keyword,RSUN_REF,,,str,
-0,keyword,RSUN_ARC,,,str,
-0,keyword,HGLN_OBS,,,str,
-0,keyword,HGLT_OBS,,,str,
-0,keyword,DSUN_OBS,,,str,
+0,keyword,CHECKSUM,,HDU checksum updated [YYYY-MM-DDTHH:MM:SS],str,
+0,keyword,DATASUM,,data unit checksum updated [YYYY-MM-DDTHH:MM:SS],str,
+0,keyword,WCSNAME,,Name of coordinate system,str,Helioprojective-Cartesian
+0,keyword,CTYPE1,,Helioprojective longitude (solar X),str,HPLN-TAN
+0,keyword,CTYPE2,,Helioprojective longitude (solar Y),str,HPLT-TAN
+0,keyword,CUNIT1,,Unit along axis 1,str,arcsec
+0,keyword,CUNIT2,,Unit along axis 2,str,arcsec
+0,keyword,PC1_1,,WCS coordinate transformation matrix ,str,
+0,keyword,PC1_2,,WCS coordinate transformation matrix ,str,
+0,keyword,PC2_1,,WCS coordinate transformation matrix ,str,
+0,keyword,PC2_2,,WCS coordinate transformation matrix ,str,
+0,keyword,CDELT1,,[arcsec] pixel scale along axis 1,str,
+0,keyword,CDELT2,,[arcsec] pixel scale along axis 2,str,
+0,keyword,CROTA,,[deg] rotation angle,str,
+0,keyword,CRVAL1,,[arcsec] Value of reference pixel along axis 1,str,
+0,keyword,CRVAL2,,[arcsec] Value of reference pixel along axis 2,str,
+0,keyword,CRPIX1,,Reference pixel location along axis 1,str,
+0,keyword,CRPIX2,,Reference pixel location along axis 2,str,
+0,keyword,SUN_XCEN,,[pixel] sun center location along axis 1,str,
+0,keyword,SUN_YCEN,,[pixel] sun center location along axis 2,str,
+0,keyword,RSUN_REF,,[m] assumed physical solar radius,str,
+0,keyword,RSUN_ARC,,[arcsec] assumed physical solar radius,str,
+0,keyword,HGLN_OBS,,Stonyhurst heliographic longitude of the observer,str,
+0,keyword,HGLT_OBS,,Stonyhurst heliographic latitude of the observer,str,
+0,keyword,DSUN_OBS,,Distance between the sun and the observer in meters,str,
