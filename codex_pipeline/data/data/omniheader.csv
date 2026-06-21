@@ -1,5 +1,5 @@
 SECTION,TYPE,KEYWORD,VALUE,COMMENT,DATATYPE,DEFAULT
-0,keyword,XTENSION,Image extension,,str,IMAGE,
+0,keyword,XTENSION,Image extension,,str,IMAGE
 0,keyword,BITPIX,16,Number of bits per pixel,int,16,
 0,keyword,NAXIS,2,Number of axes,int,2,
 0,keyword,NAXIS1,2408,Length of the first axis,int,2048,
