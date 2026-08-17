@@ -1,28 +1,24 @@
 Data Product Codes
-====================
+==================
 
-CODEX data products are organized into data processing levels from Level 0 (raw camera data) to Level 2 (calibrated science data). Within and across levels distinct data products and calibration files are marked with a unique identifying product code. For data in the spacecraft frame, each spacecraft is marked with a unique numeral identity - 1,2,3 for each level. 
+CODEX data products are organized into data processing levels from Level 0 (raw camera data) to Level 2 (calibrated science data). Within and across levels distinct data products and calibration files are marked with a unique identifying product codes, identifying filters used. There are 2 filter wheels in series. Clear filters are used to select single filter positions.
 
-Note that most CODEX FITS data products contain the primary data within the first extension HDU, with corresponding uncertainties stored in the second extension HDU.
+Note that L1 CODEX FITS data products contain the 4 polarization states separated by FITS extensions
 
-Data Product Codes
-------------------
+Filter wheel Data Product Codes
+------------------------------- 
 
-.. list-table::
-   :header-rows: 1
+| Filter Wheel 1 (ND)
+| 3 = ND = Neutral density, 6 = 1E-6 
+| 1 = Ca = 393.65 +/- 0.2 - Ca II filter, possible used as F-corona discriminant
+| 5 = BB = 412.5 +/- 27.5 nm - broadband filter for fast density observations
+| 4 = T3 = 430.0 +/- 5 nm - used for temperature diagnostic
+| 2 = CL = Clear 
+| 
 
-   * - **Level**
-     - **Code**
-     - **Description**
-   * - 0
-
-Calibration Product Codes
--------------------------
-
-.. list-table::
-   :header-rows: 1
-
-   * - Level
-     - Code
-     - Description
-   * - 0
+| Filter Wheel 2 (BP)
+| 3 = T1 = 393.5 +/- 5 nm - used for temperature diagnostic
+| 4 = T2 = 405.0 +/- 5 nm - used for temperature diagnostic
+| 2 = S1 = 398.7 +/- 5 nm - used for speed diagnostic
+| 1 = S2 = 423.3 +/- 5 nm - used for speed diagnostic
+| 5 = CL = Clear

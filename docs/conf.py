@@ -23,7 +23,7 @@ from packaging.version import Version
 
 # -- Project information -----------------------------------------------------
 
-project = "data-pipeline"
+project = "codex_pipeline"
 copyright = "2026, CODEX Science Operations Center"
 author = "CODEX Science Operations Center"
 
@@ -58,7 +58,7 @@ def copy_and_truncate_csv(src_path, dest_path, columns, filter_column, filter_va
 filter_column = 'TYPE'
 filter_value = 'keyword'
 
-src_csv_path = os.path.abspath(os.path.join('../data-pipeline/data/data/', 'omniheader.csv'))
+src_csv_path = os.path.abspath(os.path.join('../codex_pipeline/data/data/', 'omniheader.csv'))
 dest_csv_path = os.path.abspath(os.path.join('./data/', 'omniheader_select.csv'))
 columns_to_include = ['KEYWORD', 'COMMENT']
 
@@ -114,7 +114,7 @@ html_theme_options = {
     "show_nav_level": 1,
     "show_toc_level": 3,
     "logo": {
-        "text": "data-pipeline",
+        "text": "codex",
         "image_light": "_static/logo.png",
         "image_dark": "_static/logo.png",
     }
@@ -128,7 +128,7 @@ html_context = {
 }
 
 
-autoapi_dirs = ["../data-pipeline"]
+autoapi_dirs = ["../codex_pipeline"]
 
 favicons = ["favicon.ico"]
 

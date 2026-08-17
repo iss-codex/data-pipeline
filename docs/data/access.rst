@@ -1,42 +1,44 @@
 Accessing CODEX Data
 ====================
 
-Recommended Level 1 Products
+Recommended Data Products
 -----------------------------
-For most science use cases, the recommended starting point is the Level 1 science data products...
+The Level 1 and Level 2 science data products produced by the CODEX data processing pipelines are structured as 4D FITS files, which bundle the primary data along with secondary data and metadata fully describing the observation. These science data products are compliant with the official `FITS standards <https://fits.gsfc.nasa.gov/standard40/fits_standard40aa-le.pdf>`_. 
 
+Each Level 1 science data product includes a primary Header Data Unit (HDU) that contains the metadata for the file. Each of the remaining 4 HDUs contain polarized image data which can be used for science. 
+
+For most science use cases, however, the recommended starting point is the Level 2 science data products.
 
 Downloading Data
 ----------------
-Data output from the CODEX data processing pipeline are stored and accessible through the Solar Data Analysis Center (SDAC)
-- a portal for hosting through tools such as the Virtual Solar Observatory (VSO).
-From here CODEX data products can be queried and requested for download using metadata within the data products.
+The Level 1 and Level 2 science data products are hosted and accessible through the `Solar Data Analysis Center (SDAC) <https://umbra.nascom.nasa.gov/codex>`_. CODEX data products can be downloaded either manually from SDAC, or queried and retrieved using the metadata within individual data products. 
 
-If that example is not working properly, you can also pull data directly from the SDAC using ``wget``.
+For the latter case, files may be retrieved in one of two ways: 
+
+1. By using the ``wget`` command: 
 
 .. code-block:: bash
 
-    wget -r -l1 --no-parent --no-directories -A "codex_l1_20250521_*.fits" -R "*.html*,index*,*tmp*" https://umbra.nascom.nasa.gov/codex/2025/05/21/
+    wget -r -l1 --no-parent --no-directories -A "codex_level__cl_t1_20251221.fits" -R "*.html*,index*,*tmp*" https://umbra.nascom.nasa.gov/codex/2025/12/21/
 
-The above example would pull data for the L1 products on 2025-05-21.
-Change the path and date according to what product you wish to download.
+In this example, the user would retrieve all  data products from 2025-12-21. To retrieve data from a different date, simply modify the path to specifying a different date.
 
-CODEX data are also accessible using the ??? tool,
-where it can be quickly pulled.
+2. By using a data scraping tool. A `Jupyter notebook <https://github.com/nhgodbole/data-pipeline/blob/main/Notebooks/codex_data_scraper.ipynb>`_ was developed for this purpose.
+
+The script queries the database based on user input. By specifying a range of dates, the user can download either Level 1 science data files (if the keyword "calibration" is None) or Level 1 calibration data files (if the keyword "calibration" is not None) within the specified date range. Specific calibration data types may also be specified. This is useful for use cases in which the user requires large datasets.
 
 Reading Data
 ------------
-Standard CODEX data is stored as a standards-compliant FITS file, which bundles the primary data along with secondary data and metadata fully describing the observation.
-Each file is named with a convention that uniquely identifies the product - a sample being 'codex_l1_20250521_000001_5_4.fits' - where l1 defines the data level,
-20250521_000001 is a timestamp in the format yyyymmdd_hhmmss, and _5, _4 are the positions of the filter wheels.
+Each FITS file is named with a convention that uniquely identifies the product. For example, 'codex_level_cl_t1_20251221_000001.fits', where l1 defines the data level,
+20251221_000001 is a timestamp in the format yyyymmdd_hhmmss, and _5, _4 are the positions of the filter wheels.
 
-For most end-users the primary data of interest are L1.
-
-These data are compatible with standard astropy FITS libraries, and can be read in as following the example,
+These data are compatible with standard astropy FITS libraries and can be read as in the following example:
 
 .. code-block:: python
 
-    filename = 'example_data/codex_l1_20250521_000001_5_4.fits.fits'
+    from astropy.io import fits
+
+    filename = 'codex_l1_20250521_000001_5_4.fits'
 
     with fits.open(filename) as hdul:
         data = hdul[1].data
@@ -45,9 +47,8 @@ These data are compatible with standard astropy FITS libraries, and can be read 
 
 Data Projections
 ----------------
-The CODEX instrument extends its field of view out to around ???-degrees from the Sun,
+The CODEX instrument extends its field of view out to around ??? degrees from the Sun,
 creating a meshed virtual observatory extending to a diameter of nearly ??? solar radii.
 The wide nature of this field of view requires attention to the data projection being used for these data.
 
-Each data contains a set of World Coordinate System (WCS) parameters that describe the coordinates of the data,
-in both a helioprojective and celestial frame.
+Each data contains a set of World Coordinate System (WCS) parameters that describe the coordinates of the data, in a heliographic (Stonyhurst) coordinate frame.
