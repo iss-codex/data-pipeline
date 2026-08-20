@@ -8,7 +8,7 @@ Understanding solar wind sources and acceleration mechanisms is an overarching s
 How do I get data?
 -----------------
 
-You can learn more at `this page <data/index.html>`_.
+You can learn more at `this page <https://codex-iss.readthedocs.io/en/latest/data/access.html>`_.
 
 Where does `data-pipeline` fit in?
 ------------------------------
@@ -26,7 +26,7 @@ CODEX and Python
 ----------------
 
 The CODEX framework is built using Python - an object-oriented language with a large user / code base in astronomy and solar physics.
-The pipeline and tools for querying / loading PUNCH data use the Python language, along with the SunPy and Astropy software libraries.
+The pipeline and tools for querying / loading CODEX data use the Python language, along with the SunPy and Astropy software libraries.
 A number of useful tutorials exist online...
 
 In addition to scripts and modules, Python notebooks provide a great way to execute and document a sequence of code cells, with visualizations directly in-line.
