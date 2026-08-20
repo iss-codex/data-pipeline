@@ -6,11 +6,9 @@
 Welcome to CODEX documentation!
 =====================================
 
-- We recommend beginning with the `introduction <intro.html>`_ and working through the related concepts.
-- When you're ready to begin, read through documentation on how to `get data <data/index.html>`_.
-- Check out the `examples <auto_examples/index.html>`_ tab for performing specific tasks.
-- To understand a specific part of the pipeline, look in the `segment descriptions <pipeline/index.html>`_.
-- Explore the `full API <autoapi/index.html>`_ for full details on functions.
+- We recommend beginning with the `introduction <https://codex-iss.readthedocs.io/en/latest/intro.html>`_ and working through the related concepts.
+- When you're ready to begin, read through documentation on how to `get data <https://codex-iss.readthedocs.io/en/latest/data/index.html>`_.
+- Check out the `examples <https://codex-iss.readthedocs.io/en/latest/auto_examples/index.html>`_ tab for performing specific tasks.
 
 .. toctree::
    :hidden:
