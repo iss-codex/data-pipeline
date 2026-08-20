@@ -7,7 +7,7 @@ Welcome to CODEX documentation!
 =====================================
 
 - We recommend beginning with the `introduction <https://codex-iss.readthedocs.io/en/latest/intro.html>`_ and working through the related concepts.
-- When you're ready to begin, read through documentation on how to `get data <https://codex-iss.readthedocs.io/en/latest/data/index.html>`_.
+- When you're ready to begin, read through documentation on how to `get data <https://codex-iss.readthedocs.io/en/latest/data/access.html>`_.
 - Check out the `examples <https://codex-iss.readthedocs.io/en/latest/auto_examples/index.html>`_ tab for performing specific tasks.
 
 .. toctree::
